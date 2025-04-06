@@ -1,0 +1,77 @@
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* body customization */
+body{
+    background-color:black; /* background color */
+}
+
+/* heading customization */
+h1{
+    font-family: "Luxurious Roman", serif;; /* font family */
+    color: white; /* text color */
+    text-align: center; /* text alignment  */
+    font-size: 70px; /* font size */
+}
+
+/* img customization */
+img {
+    width: 100%; /* width of image */
+    height: auto; /* height of image on auto to adjust to other settings */
+  }
+
+/* used to customise how the image and container box displays */
+.displaybox {
+    display: flex;/* flex box display layout */
+    justify-content: center; /* horizentally centers all the images */
+    align-items: center; /* vertically centers all the images */
+    width: 90%; /* width of container*/
+    padding: 5px; /*adds space in the */
+    margin: 100px auto; /*adds margin to the div  */
+
+}
+
+/* targets the container box holding the image (div) */
+.img {
+    width: 250px; /* width of the container box that holds the image */
+    margin: 0 40px; /* adds space between images */
+}
+
+/* targets the images inside the div/container box */
+.img img {
+    width: 100%; /*makes each image take up full width of their container box */
+    height: auto; /* so it fits the aspect ratio of the width everytime */
+}
+
+
+/* filters for each photo using ids and css filters */
+#beach {
+    filter: sepia(200%);
+    box-shadow: 0 0 15px 4px white; /* White glowing border */
+}
+
+#cloudy {
+    filter: saturate(200%);
+    box-shadow: 0 0 15px 4px white; /* White glowing border */
+}
+
+#sunrise {
+    filter: grayscale(90%) blur(1px);
+    box-shadow: 0 0 15px 4px white; /* White glowing border */
+}
+
+/* title text customization */
+.title {
+    color: white; 
+    font-family: "EB Garamond", serif;
+    font-size: 15px;
+}
+
+/* copyright text customization */
+.copyright {
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-size: 13px;
+}
