@@ -1,0 +1,120 @@
+/* header customization */
+header{
+    background-color:#17072b ; /* background color */
+    color: white; /* text color */
+    text-align: center; /* text alignment */
+    font-family: Tahoma, sans-serif;  /* text font */
+    padding: 20px 0; /* adds space inside header */
+    box-sizing: border-box; /* so padding doesn't affect width */
+    width: 100%; /* allows header to take full width */
+}
+
+
+/* digi fest title customization */
+h1{
+    font-size: 45px;
+}
+
+
+/* navigation text customization */
+nav a{
+    color: white; /* text color */
+    text-decoration: none; /* removes underline from anchor text */
+    padding: 14px; /* adds space around text */
+    font-size: 25px; /*font size  */
+}
+
+
+/* navigation text hover customization */
+nav a:hover {
+    color: rgb(136, 0, 255); /* color text turns to when mouse hovers over text */
+}
+
+
+/* body customization */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;  
+  
+}
+
+
+/* welcome header customization specifically the font size*/
+#welcomeheader{
+    font-size: 35px;
+}
+
+
+/* main paragraph customization specifically the font size */
+#mainpara {
+    font-size: 27px;
+}
+
+
+/*parent div customization */
+.maindivcontent {
+  display: flex; /* flex box layout */
+  padding: 10px 0px 10px 10px; /* adds space in between elements */
+}
+
+  
+/* left side of screen customization */
+.leftside {
+  flex: 1; /* gives the left side some space in proportion to the image reference */
+}
+
+
+/* line up title customization */
+#lineupheader {
+  font-size: 30px;
+}
+
+
+/* ul list in line-up side bar customization */
+#theul {
+  font-size: 25px;
+  list-style: none;
+}
+  
+
+/* right side of screen/ line up side bar customization*/
+.lineup {
+  flex: 1;
+  background-color: #1e3774;
+  color: white;
+  padding: 20px;
+}
+
+
+/* line image container customization */
+.lineimg {
+  display: flex; /*so the images are next to each other  */
+  gap: 20px; /*space between images  */
+}
+  
+
+/* the images inside the line up image container customization */
+.lineimg img {
+  width: 40%;
+  height: auto; /* so the images are the same height  */
+}
+  
+
+/* the big photo under the main paragraph customization */
+.bigphoto {
+  width: 80%; 
+}
+
+
+/* footer customization */
+footer {
+  background-color:  #8c15e9;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 2px; /* adds space */
+}
+
+
