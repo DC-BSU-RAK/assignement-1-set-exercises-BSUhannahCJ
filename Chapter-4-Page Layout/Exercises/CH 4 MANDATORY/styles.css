@@ -62,7 +62,7 @@ body{
   
 /* left side of screen customization */
 .leftside {
-  flex: 1; /* gives the left side some space in proportion to the image reference */
+  flex: 1.5; /* gives the left side some space in proportion to the image reference */
 }
 
 
@@ -85,6 +85,8 @@ body{
   background-color: #1e3774;
   color: white;
   padding: 20px;
+  width: 100px;
+  height: 650px;
 }
 
 
@@ -92,19 +94,22 @@ body{
 .lineimg {
   display: flex; /*so the images are next to each other  */
   gap: 20px; /*space between images  */
+  justify-content: center; /* centers the image row */
+  margin-top: 10px;
 }
   
 
 /* the images inside the line up image container customization */
 .lineimg img {
-  width: 40%;
+  width: 80%;
+  margin-bottom: 50px;
   height: auto; /* so the images are the same height  */
 }
   
 
 /* the big photo under the main paragraph customization */
 .bigphoto {
-  width: 80%; 
+  width: 95%; 
 }
 
 
