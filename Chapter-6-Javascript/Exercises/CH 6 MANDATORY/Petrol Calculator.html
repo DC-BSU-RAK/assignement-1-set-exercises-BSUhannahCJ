@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Petrol Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- parent div -->
+  <div class="thebox">
+        <!-- main heading/title -->
+        <h1>Hanz's Petrol Calculator!</h1>
+
+        <!-- user input div -->
+        <div class="Calpart">
+            <div>
+                <!-- petrol price title/heading -->
+                <p>Petrol Price per Liter</p>
+                <!-- input for the price, minumum/default price is 1.72, number inputs only -->
+                <input id="price" value="1.72" type="number">
+            </div>
+            <div>
+                <!-- petrol liters title/heading -->
+                <p>Liters of Petrol</p>
+                 <!-- input for the liter, minumum/default amount is 1, number inputs only -->
+                <input id="liter" value="1" type="number">
+            </div>
+        </div>
+
+        <!-- outpt div -->
+        <div id="button">
+          <!-- button that runs the function 'calculate()' in js when clicked -->
+        <button onclick="calculate()">Calculate!</button>
+        <!-- text -->
+        <h2>Your total amount is:</h2>
+        <!-- initally $0.00, will change with the use of js and the id given -->
+        <h2 id="output">$0.00</h2>
+        </div>
+  </div>
+  
+  <script src="javascript.js"></script>
+</body>
+</html>
+
