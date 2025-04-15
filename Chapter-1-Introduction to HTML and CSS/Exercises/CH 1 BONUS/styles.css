@@ -1,0 +1,16 @@
+/* body customization */
+body {
+    background-color: rgb(64, 8, 170);
+    color: white;
+}
+
+/* hr customization */
+hr {
+    border: 1px solid white; /* thickness and color */
+    margin: 20px 0; /* how long the line goes */
+}
+
+/* bullet list class customization */
+.bulletlist {
+    line-height: 25px;  /* space between lines */
+  }
