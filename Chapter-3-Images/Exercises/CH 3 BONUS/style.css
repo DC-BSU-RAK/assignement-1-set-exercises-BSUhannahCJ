@@ -1,0 +1,74 @@
+/* div 1 customization, border and outside shadow */
+#div1 {
+    display: inline-block;
+    font-family: sans-serif; /*text font  */
+    font-size: 50px; /*text size  */
+    color: rgb(170, 0, 255); /*text color  */
+    margin: 25px;
+    border: 4px solid rgb(170, 0, 255); /* div border color, type and thickness */
+    line-height: 100px;
+    text-align: center; /* text alignment */
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.673); /*outer shadow for div box  */
+}
+
+/* div 2 customization, border and inside shadow */
+#div2 {
+    display: inline-block;
+    font-family: sans-serif; /* text font */
+    font-size: 50px; /*  text size*/
+    color: rgb(255, 0, 170); /* text color */
+    margin: 25px;
+    border: 4px solid rgb(255, 0, 170); /* div border color, type and thickness */
+    line-height: 100px;
+    text-align: center; /* text alignment */
+    width: 200px;
+    height: 200px;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.673); /* inner shadow for div box  */
+}
+  
+/* div 3 customization, 4 stacked borders each of different sizes */
+#div3 {
+    display: inline-block;
+    font-family: sans-serif; /* text font */
+    font-size: 50px; /* text size */
+    color: #00ff4c; /* text color */ 
+    margin: 25px;
+
+    /* 4 stacked borders using box-shadows */
+    box-shadow:
+        0 0 0 7px #ddff00,
+        0 0 0 15px #00ff4c,
+        0 0 0 23px #ddff00,
+        0 0 0 30px #00ff4c;
+
+    line-height: 100px;
+    text-align: center; /* text alignment */
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+#div4 {
+    display: inline-block;
+    font-family: sans-serif; /* text font */
+    font-size: 50px; /* text size */
+    color: rgb(0, 234, 255); /* text color  */
+    margin: 25px; 
+    border: 4px solid rgb(0, 234, 255); /* div border color, type and thickness */
+    line-height: 100px;
+    text-align: center; /* text alignment */
+    width: 200px;
+    height: 200px;
+    text-shadow: 3px 3px 5px rgba(8, 0, 255, 0.705); /* text shadow to create blur like effect */
+}
+  
+/* body customization */
+body {
+    margin: 100px auto;
+    width: max-content;
+}
+
+ 
+  
