@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* body customization*/ 
+body {
+    background-image: url('zbackground.jpeg');  /* image as background */
+    background-size: cover;  /* makes the image cover the entire screen  */
+    background-position: center;  /* centers the background image */
+}
+
+/* main heading customization */
+h1{
+    color: rgb(255, 255, 255); /* text color */
+    font-family: "Bebas Neue", sans-serif; /* text font */
+    font-size: 70px; /* font size */
+    text-align: center; /* text alignment  */
+    margin-bottom: 0; /* removes bottom margin */
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0); margin: 20px 0;
+}
+
+/* section customization */
+.sectionstyle{
+    color: rgb(255, 255, 255);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+
+/* anchor customization */
+a{
+    color: rgb(84, 0, 120);
+    text-decoration: none; /* style of the text (underline, etc..)*/
+    font-weight: bold;
+}
+
+/* anchor hover customization */
+a:hover {
+    color: rgb(5, 188, 255); /*hover color*/
+  }
+
+  /* section paragraphs customization */
+.sectionpara{
+    font-size: 25;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* review boxes customization */
+.reviews{
+    font-size: 18;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f9f9f9; /* box color */
+    color: #2b2b2b; /* text color */
+    float: left; /* box alignment to left side of webpage */
+    padding: 30px; /* space inside the box */
+    border-radius: 6px; /* rounded the box corners */
+    margin: 10px; 
+    width: auto; /* width of the box auto to the size of the text */
+}
+
+/* link button customization */
+#button {
+        background-color: #191794;
+        color: white;
+        padding: 10px 20px;
+        font-size: 25px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+}
+
+/* button hover customization */
+#button:hover {
+    background-color: #2e2bff;
+}
+
+/* this is so the link button wont be far away from the "link to official website" text */
+#last {
+    margin-bottom: 10px;
+}
